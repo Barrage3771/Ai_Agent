@@ -49,9 +49,9 @@ schema_run_python_file = types.FunctionDeclaration(
             ),
             "args": types.Schema(
                 type=types.Type.ARRAY,
-                items=types.Schema(type=types.Type.STRING)
-                description="Optional command-line arguments."
-            )
+                items=types.Schema(type=types.Type.STRING),
+                description="Optional command-line arguments.",
+            ),
         },
     ),
 )
